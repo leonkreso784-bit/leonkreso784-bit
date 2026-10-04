@@ -32,6 +32,9 @@
 
 - **[Sokrat Study](https://www.sokratstudy.com)** — a platform for study notes and learning, built for my faculty (FMTU Opatija).
   The plan is to expand it to the whole University of Rijeka.
+- **[Sokratis](https://github.com/leonkreso784-bit/SOKRATIS)** — a desktop app that tracks how you work, not just
+  what you shipped: it reads a git repository and shows work statistics, documentation health and signals with
+  evidence. Built with Rust and Svelte.
 - **Hotel management simulation** *(in progress)* — a learning game for hospitality students, in Rust and TypeScript.
 
 ---
