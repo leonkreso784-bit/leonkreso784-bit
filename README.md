@@ -1,6 +1,10 @@
 <h1 align="center">Hi, I'm Leon 👋</h1>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=500&lines=Building+Sokrat+Study;Shipping+Sokratis+in+Rust;Hospitality+student+at+FMTU+Opatija" alt="Building Sokrat Study · Shipping Sokratis in Rust · Hospitality student at FMTU Opatija" />
+</p>
+
+<p align="center">
   Self-taught developer, growing in <b>full-stack development</b>.
 </p>
 
@@ -8,23 +12,15 @@
 
 ### 🛠️ Languages
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,py,postgres,html,css" alt="Rust, TypeScript, JavaScript, Python, SQL (PostgreSQL), HTML, CSS" />
+</p>
 
 ### 🧰 Tools
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,svelte,nodejs,postgres,supabase,vercel,git" alt="React, Svelte, Node.js, PostgreSQL, Supabase, Vercel, Git" />
+</p>
 
 ---
 
