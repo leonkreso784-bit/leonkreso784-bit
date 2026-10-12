@@ -10,6 +10,11 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 
+// Svaka greška kao GitHub anotacija (`::error::`) — anotacije su javne, logovi traže admin prava.
+const prijavi = (e) => { console.log('::error::activity-graph: ' + String((e && (e.stack || e.message)) || e).replace(/\r?\n/g, '%0A')); process.exit(1); };
+process.on('uncaughtException', prijavi);
+process.on('unhandledRejection', prijavi);
+
 const [korisnik = 'leonkreso784-bit', izlaz = 'dist/activity-graph.svg'] = process.argv.slice(2);
 const DANA = 31;
 
@@ -29,8 +34,7 @@ for (const m of html.matchAll(/<tool-tip[^>]*?\bfor="([^"]+)"[^>]*>([^<]*)<\/too
   brojPoDatumu.set(datum, n ? Number(n[1]) : 0);   // „No contributions on …" = 0
 }
 if (datumPoId.size < 300 || brojPoDatumu.size < 300) {
-  console.error(`Kalendar ne izgleda kako treba: ${datumPoId.size} dana, ${brojPoDatumu.size} brojki (očekivano ≥ 300).`);
-  process.exit(1);
+  prijavi(`Kalendar ne izgleda kako treba: ${datumPoId.size} dana, ${brojPoDatumu.size} brojki (očekivano ≥ 300); HTTP ${res.status}, ${html.length} B`);
 }
 
 const sviDatumi = [...brojPoDatumu.keys()].sort();

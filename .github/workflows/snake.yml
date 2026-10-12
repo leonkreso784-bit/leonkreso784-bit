@@ -19,15 +19,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # PRIJE zmije: snk radi u Dockeru kao root i stvori `dist/` koju korak poslije njega ne smije pisati
+      - name: Graf aktivnosti (zadnjih 31 dan)
+        run: node .github/scripts/activity-graph.mjs leonkreso784-bit dist/activity-graph.svg
+
       - uses: Platane/snk@v3
         with:
           github_user_name: leonkreso784-bit
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Graf aktivnosti (zadnjih 31 dan)
-        run: node .github/scripts/activity-graph.mjs leonkreso784-bit dist/activity-graph.svg
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
