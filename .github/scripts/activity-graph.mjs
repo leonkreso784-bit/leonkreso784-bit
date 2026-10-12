@@ -9,36 +9,14 @@
 
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
-
-// Svaka greška kao GitHub anotacija (`::error::`) — anotacije su javne, logovi traže admin prava.
-const prijavi = (e) => { console.log('::error::activity-graph: ' + String((e && (e.stack || e.message)) || e).replace(/\r?\n/g, '%0A')); process.exit(1); };
-process.on('uncaughtException', prijavi);
-process.on('unhandledRejection', prijavi);
+import { kalendar } from './kalendar.mjs';
 
 const [korisnik = 'leonkreso784-bit', izlaz = 'dist/activity-graph.svg'] = process.argv.slice(2);
 const DANA = 31;
 
-const res = await fetch(`https://github.com/users/${korisnik}/contributions`, { headers: { 'User-Agent': 'activity-graph' } });
-if (!res.ok) throw new Error(`HTTP ${res.status} za kalendar doprinosa`);
-const html = await res.text();
-
-// dan: <td data-date="2026-10-10" id="contribution-day-component-6-51" …>
-// broj: <tool-tip for="contribution-day-component-6-51" …>94 contributions on October 10th.</tool-tip>
-const datumPoId = new Map();
-for (const m of html.matchAll(/data-date="(\d{4}-\d{2}-\d{2})"[^>]*?\bid="([^"]+)"/g)) datumPoId.set(m[2], m[1]);
-const brojPoDatumu = new Map();
-for (const m of html.matchAll(/<tool-tip[^>]*?\bfor="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g)) {
-  const datum = datumPoId.get(m[1]);
-  if (!datum) continue;
-  const n = /^(\d+) contributions?/.exec(m[2].trim());
-  brojPoDatumu.set(datum, n ? Number(n[1]) : 0);   // „No contributions on …" = 0
-}
-if (datumPoId.size < 300 || brojPoDatumu.size < 300) {
-  prijavi(`Kalendar ne izgleda kako treba: ${datumPoId.size} dana, ${brojPoDatumu.size} brojki (očekivano ≥ 300); HTTP ${res.status}, ${html.length} B`);
-}
-
-const sviDatumi = [...brojPoDatumu.keys()].sort();
-const dani = sviDatumi.slice(-DANA).map((d) => ({ d, n: brojPoDatumu.get(d) }));
+const sve = await kalendar(korisnik);
+const dani = sve.slice(-DANA).map((c) => ({ d: c.datum, n: c.broj }));
+const brojPoDatumu = { size: sve.length };   // za završni ispis
 
 // ── crtanje ──
 const W = 850, H = 300, L = 55, R = 25, T = 25, B = 60;

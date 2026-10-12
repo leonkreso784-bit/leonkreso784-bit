@@ -41,12 +41,12 @@
 
 ---
 
-### 🐍 Contribution Snake
+### 🧱 Contribution Tetris
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-snake.svg" alt="Snake animation" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-tetris-dark.svg" />
+    <img src="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-tetris.svg" alt="Tetris pieces building my contribution graph" />
   </picture>
 </p>
 
