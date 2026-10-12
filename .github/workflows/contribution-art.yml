@@ -1,7 +1,7 @@
-name: Generate Snake
+name: Contribution art
 
-# Crta „zmiju" i graf aktivnosti iz kalendara doprinosa i sprema ih na granu `output` (README ih čita
-# odande). Vrti se svaku noć u ponoć (UTC) i ručno: Actions → Generate Snake → Run workflow.
+# Crta tetris doprinosa i graf aktivnosti iz kalendara doprinosa i sprema ih na granu `output` (README ih
+# čita odande). Vrti se svaku noć u ponoć (UTC) i ručno: Actions → Contribution art → Run workflow.
 
 on:
   schedule:
@@ -19,16 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # PRIJE zmije: snk radi u Dockeru kao root i stvori `dist/` koju korak poslije njega ne smije pisati
+      # ⚠️ Ako se ikad vrati Docker-akcija (npr. Platane/snk): ona stvori `dist/` kao root, pa naši koraci
+      # moraju ići PRIJE nje (12.10.2026. je zbog toga graf pao).
       - name: Graf aktivnosti (zadnjih 31 dan)
         run: node .github/scripts/activity-graph.mjs leonkreso784-bit dist/activity-graph.svg
 
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: leonkreso784-bit
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      - name: Contribution tetris
+        run: node .github/scripts/contribution-tetris.mjs leonkreso784-bit dist/github-tetris.svg dist/github-tetris-dark.svg
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
