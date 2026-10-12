@@ -13,14 +13,13 @@
 ### 🛠️ Languages
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=rust,ts,js,py,postgres,html,css" alt="Rust, TypeScript, JavaScript, Python, SQL (PostgreSQL), HTML, CSS" />
+  <img src="assets/tech-languages.svg" alt="Rust, TypeScript, JavaScript, Python, SQL (PostgreSQL), HTML, CSS" />
 </p>
 
 ### 🧰 Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react,svelte,nodejs,postgres,supabase,vercel,git" alt="React, Svelte, Node.js, PostgreSQL, Supabase, Vercel, Git" />
-  <img src="assets/railway.svg" alt="Railway" width="48" height="48" />
+  <img src="assets/tech-tools.svg" alt="React, Svelte, Node.js, PostgreSQL, Supabase, Vercel, Git, Railway" />
 </p>
 
 ---
