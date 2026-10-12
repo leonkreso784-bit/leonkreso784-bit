@@ -39,6 +39,23 @@
 
 ---
 
+### 📈 Activity
+
+[![Activity Graph](https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/activity-graph.svg)](https://github.com/leonkreso784-bit)
+
+---
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-snake.svg" alt="Snake animation" />
+  </picture>
+</p>
+
+---
+
 ### 📫 Contact
 
 - 📸 Instagram: **[@leonkreso](https://instagram.com/leonkreso)**
