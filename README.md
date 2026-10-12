@@ -20,6 +20,7 @@
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react,svelte,nodejs,postgres,supabase,vercel,git" alt="React, Svelte, Node.js, PostgreSQL, Supabase, Vercel, Git" />
+  <img src="assets/railway.svg" alt="Railway" width="48" height="48" />
 </p>
 
 ---
