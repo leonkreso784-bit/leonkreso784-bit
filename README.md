@@ -45,8 +45,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-tetris-dark.svg" />
-    <img src="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-tetris.svg" alt="Tetris pieces building my contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-sokrat-dark.svg" />
+    <img src="https://raw.githubusercontent.com/leonkreso784-bit/leonkreso784-bit/output/github-sokrat.svg" alt="sokrat.dev spelled letter by letter, flashing, then crumbling into my contribution graph" />
   </picture>
 </p>
 

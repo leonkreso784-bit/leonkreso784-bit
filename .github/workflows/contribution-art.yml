@@ -1,6 +1,6 @@
 name: Contribution art
 
-# Crta tetris doprinosa i graf aktivnosti iz kalendara doprinosa i sprema ih na granu `output` (README ih
+# Crta „sokrat.dev" koji se raspada u graf doprinosa i graf aktivnosti iz kalendara doprinosa i sprema ih na granu `output` (README ih
 # čita odande). Vrti se svaku noć u ponoć (UTC) i ručno: Actions → Contribution art → Run workflow.
 
 on:
@@ -24,8 +24,8 @@ jobs:
       - name: Graf aktivnosti (zadnjih 31 dan)
         run: node .github/scripts/activity-graph.mjs leonkreso784-bit dist/activity-graph.svg
 
-      - name: Contribution tetris
-        run: node .github/scripts/contribution-tetris.mjs leonkreso784-bit dist/github-tetris.svg dist/github-tetris-dark.svg
+      - name: sokrat.dev → contribution graph
+        run: node .github/scripts/contribution-sokrat.mjs leonkreso784-bit dist/github-sokrat.svg dist/github-sokrat-dark.svg
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:

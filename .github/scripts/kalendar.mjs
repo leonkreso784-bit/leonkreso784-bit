@@ -1,5 +1,5 @@
 // Javni kalendar doprinosa → [{ datum, broj, razina, tjedan, dan }] — JEDINO mjesto koje ga čita
-// (graf aktivnosti i tetris ga dijele). Bez tokena: https://github.com/users/<korisnik>/contributions.
+// (graf aktivnosti i „sokrat.dev" ga dijele). Bez tokena: https://github.com/users/<korisnik>/contributions.
 //
 // Ćelija:  <td data-date="2026-10-10" id="contribution-day-component-6-51" data-level="4" …>
 //          (id = …-<dan u tjednu 0–6>-<tjedan 0–52>)
