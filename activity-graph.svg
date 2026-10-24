@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="320" viewBox="0 0 850 320" font-family="Segoe UI, Ubuntu, sans-serif">
+  <title>leonkreso784-bit: 833 contributions in the last 31 days (2026-09-24 – 2026-10-24)</title>
+  <defs>
+    <linearGradient id="potez" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="sjaj" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="0.6" stop-color="#22D3EE" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <style>
+    .crta { stroke-dasharray: 1; stroke-dashoffset: 1; animation: crtaj 2.2s linear forwards; }
+    .povrsina { opacity: 0; animation: pojavi .9s ease-out 1.21s forwards; }
+    .tocka { transform-box: fill-box; transform-origin: center; transform: scale(0); animation: iskoci .35s cubic-bezier(.34,1.56,.64,1) forwards; }
+    .vrh { opacity: 0; animation: pojavi .5s ease-out 2.40s forwards; }
+    .danas { transform-box: fill-box; transform-origin: center; animation: puls 1.8s ease-in-out 2.60s infinite; opacity: 0; }
+    .znacka { opacity: 0; animation: pojavi .6s ease-out forwards; }
+    @keyframes crtaj { to { stroke-dashoffset: 0; } }
+    @keyframes pojavi { to { opacity: 1; } }
+    @keyframes iskoci { to { transform: scale(1); } }
+    @keyframes puls { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(3.2); } }
+    @media (prefers-reduced-motion: reduce) {
+      .crta, .povrsina, .tocka, .vrh, .znacka { animation: none; stroke-dashoffset: 0; opacity: 1; transform: none; }
+      .danas { animation: none; }
+    }
+  </style>
+  <rect width="850" height="320" fill="#0D1117" rx="10"/>
+  <text x="25" y="41" font-size="17" font-weight="700" fill="#E6EDF3">📈 Activity <tspan fill="#8B949E" font-weight="400" font-size="13">· last 31 days</tspan></text>
+  <g class="znacka" style="animation-delay:0.30s">
+    <rect x="744.4" y="20" width="75.6" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="757.4" y="40" font-size="14"><tspan fill="url(#potez)" font-weight="700">7</tspan><tspan fill="#8B949E" dx="5">today</tspan></text>
+  </g>
+  <g class="znacka" style="animation-delay:0.15s">
+    <rect x="621.8" y="20" width="112.6" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="634.8" y="40" font-size="14"><tspan fill="url(#potez)" font-weight="700">3</tspan><tspan fill="#8B949E" dx="5">day streak</tspan></text>
+  </g>
+  <g class="znacka" style="animation-delay:0.00s">
+    <rect x="459.8" y="20" width="152.0" height="30" rx="15" fill="#161B22" stroke="#30363D"/>
+    <text x="472.8" y="40" font-size="14"><tspan fill="url(#potez)" font-weight="700">833</tspan><tspan fill="#8B949E" dx="5">contributions</tspan></text>
+  </g>
+  <line x1="55" x2="820" y1="270.0" y2="270.0" stroke="#1F2335" stroke-width="1"/>
+  <text x="45" y="274.0" fill="#8B949E" font-size="11" text-anchor="end">0</text>
+  <line x1="55" x2="820" y1="206.0" y2="206.0" stroke="#1F2335" stroke-width="1"/>
+  <text x="45" y="210.0" fill="#8B949E" font-size="11" text-anchor="end">50</text>
+  <line x1="55" x2="820" y1="142.0" y2="142.0" stroke="#1F2335" stroke-width="1"/>
+  <text x="45" y="146.0" fill="#8B949E" font-size="11" text-anchor="end">100</text>
+  <line x1="55" x2="820" y1="78.0" y2="78.0" stroke="#1F2335" stroke-width="1"/>
+  <text x="45" y="82.0" fill="#8B949E" font-size="11" text-anchor="end">150</text>
+  <text x="55.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">24</text>
+  <text x="106.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">26</text>
+  <text x="157.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">28</text>
+  <text x="208.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">30</text>
+  <text x="259.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">2</text>
+  <text x="310.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">4</text>
+  <text x="361.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">6</text>
+  <text x="412.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">8</text>
+  <text x="463.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">10</text>
+  <text x="514.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">12</text>
+  <text x="565.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">14</text>
+  <text x="616.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">16</text>
+  <text x="667.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">18</text>
+  <text x="718.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">20</text>
+  <text x="769.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">22</text>
+  <text x="820.0" y="290" fill="#8B949E" font-size="11" text-anchor="middle">24</text>
+  <path class="povrsina" d="M55.0,238.0 C63.5,246.1 72.0,262.3 80.5,262.3 C89.0,262.3 97.5,255.9 106.0,254.6 C114.5,253.4 123.0,253.6 131.5,252.1 C140.0,250.6 148.5,230.3 157.0,230.3 C165.5,230.3 174.0,260.0 182.5,262.3 C191.0,264.6 199.5,264.9 208.0,266.2 C216.5,267.4 225.0,270.0 233.5,270.0 C242.0,270.0 250.5,270.0 259.0,270.0 C267.5,270.0 276.0,268.1 284.5,264.9 C293.0,261.7 301.5,177.8 310.0,177.8 C318.5,177.8 327.0,229.6 335.5,241.8 C344.0,254.0 352.5,265.9 361.0,267.4 C369.5,269.0 378.0,270.0 386.5,270.0 C395.0,270.0 403.5,215.0 412.0,215.0 C420.5,215.0 429.0,261.0 437.5,261.0 C446.0,261.0 454.5,90.8 463.0,90.8 C471.5,90.8 480.0,152.5 488.5,168.9 C497.0,185.3 505.5,195.4 514.0,204.7 C522.5,214.1 531.0,221.9 539.5,227.8 C548.0,233.6 556.5,241.8 565.0,241.8 C573.5,241.8 582.0,208.3 590.5,203.4 C599.0,198.6 607.5,194.5 616.0,194.5 C624.5,194.5 633.0,222.6 641.5,222.6 C650.0,222.6 658.5,208.1 667.0,207.3 C675.5,206.5 684.0,206.0 692.5,206.0 C701.0,206.0 709.5,267.9 718.0,268.7 C726.5,269.6 735.0,270.0 743.5,270.0 C752.0,270.0 760.5,269.4 769.0,268.7 C777.5,268.0 786.0,264.7 794.5,263.6 C803.0,262.5 811.5,261.9 820.0,261.0 L820.0,270.0 L55.0,270.0 Z" fill="url(#sjaj)"/>
+  <path class="crta" d="M55.0,238.0 C63.5,246.1 72.0,262.3 80.5,262.3 C89.0,262.3 97.5,255.9 106.0,254.6 C114.5,253.4 123.0,253.6 131.5,252.1 C140.0,250.6 148.5,230.3 157.0,230.3 C165.5,230.3 174.0,260.0 182.5,262.3 C191.0,264.6 199.5,264.9 208.0,266.2 C216.5,267.4 225.0,270.0 233.5,270.0 C242.0,270.0 250.5,270.0 259.0,270.0 C267.5,270.0 276.0,268.1 284.5,264.9 C293.0,261.7 301.5,177.8 310.0,177.8 C318.5,177.8 327.0,229.6 335.5,241.8 C344.0,254.0 352.5,265.9 361.0,267.4 C369.5,269.0 378.0,270.0 386.5,270.0 C395.0,270.0 403.5,215.0 412.0,215.0 C420.5,215.0 429.0,261.0 437.5,261.0 C446.0,261.0 454.5,90.8 463.0,90.8 C471.5,90.8 480.0,152.5 488.5,168.9 C497.0,185.3 505.5,195.4 514.0,204.7 C522.5,214.1 531.0,221.9 539.5,227.8 C548.0,233.6 556.5,241.8 565.0,241.8 C573.5,241.8 582.0,208.3 590.5,203.4 C599.0,198.6 607.5,194.5 616.0,194.5 C624.5,194.5 633.0,222.6 641.5,222.6 C650.0,222.6 658.5,208.1 667.0,207.3 C675.5,206.5 684.0,206.0 692.5,206.0 C701.0,206.0 709.5,267.9 718.0,268.7 C726.5,269.6 735.0,270.0 743.5,270.0 C752.0,270.0 760.5,269.4 769.0,268.7 C777.5,268.0 786.0,264.7 794.5,263.6 C803.0,262.5 811.5,261.9 820.0,261.0" pathLength="1" fill="none" stroke="url(#potez)" stroke-width="6" stroke-linecap="round" opacity="0.55" filter="url(#blur)"/>
+  <path class="crta" d="M55.0,238.0 C63.5,246.1 72.0,262.3 80.5,262.3 C89.0,262.3 97.5,255.9 106.0,254.6 C114.5,253.4 123.0,253.6 131.5,252.1 C140.0,250.6 148.5,230.3 157.0,230.3 C165.5,230.3 174.0,260.0 182.5,262.3 C191.0,264.6 199.5,264.9 208.0,266.2 C216.5,267.4 225.0,270.0 233.5,270.0 C242.0,270.0 250.5,270.0 259.0,270.0 C267.5,270.0 276.0,268.1 284.5,264.9 C293.0,261.7 301.5,177.8 310.0,177.8 C318.5,177.8 327.0,229.6 335.5,241.8 C344.0,254.0 352.5,265.9 361.0,267.4 C369.5,269.0 378.0,270.0 386.5,270.0 C395.0,270.0 403.5,215.0 412.0,215.0 C420.5,215.0 429.0,261.0 437.5,261.0 C446.0,261.0 454.5,90.8 463.0,90.8 C471.5,90.8 480.0,152.5 488.5,168.9 C497.0,185.3 505.5,195.4 514.0,204.7 C522.5,214.1 531.0,221.9 539.5,227.8 C548.0,233.6 556.5,241.8 565.0,241.8 C573.5,241.8 582.0,208.3 590.5,203.4 C599.0,198.6 607.5,194.5 616.0,194.5 C624.5,194.5 633.0,222.6 641.5,222.6 C650.0,222.6 658.5,208.1 667.0,207.3 C675.5,206.5 684.0,206.0 692.5,206.0 C701.0,206.0 709.5,267.9 718.0,268.7 C726.5,269.6 735.0,270.0 743.5,270.0 C752.0,270.0 760.5,269.4 769.0,268.7 C777.5,268.0 786.0,264.7 794.5,263.6 C803.0,262.5 811.5,261.9 820.0,261.0" pathLength="1" fill="none" stroke="url(#potez)" stroke-width="3" stroke-linecap="round"/>
+  <circle class="tocka" style="animation-delay:0.00s" cx="55.0" cy="238.0" r="3.5" fill="#E6EDF3"><title>2026-09-24: 25</title></circle>
+  <circle class="tocka" style="animation-delay:0.07s" cx="80.5" cy="262.3" r="3.5" fill="#E6EDF3"><title>2026-09-25: 6</title></circle>
+  <circle class="tocka" style="animation-delay:0.14s" cx="106.0" cy="254.6" r="3.5" fill="#E6EDF3"><title>2026-09-26: 12</title></circle>
+  <circle class="tocka" style="animation-delay:0.21s" cx="131.5" cy="252.1" r="3.5" fill="#E6EDF3"><title>2026-09-27: 14</title></circle>
+  <circle class="tocka" style="animation-delay:0.28s" cx="157.0" cy="230.3" r="3.5" fill="#E6EDF3"><title>2026-09-28: 31</title></circle>
+  <circle class="tocka" style="animation-delay:0.35s" cx="182.5" cy="262.3" r="3.5" fill="#E6EDF3"><title>2026-09-29: 6</title></circle>
+  <circle class="tocka" style="animation-delay:0.43s" cx="208.0" cy="266.2" r="3.5" fill="#E6EDF3"><title>2026-09-30: 3</title></circle>
+  <circle class="tocka" style="animation-delay:0.50s" cx="233.5" cy="270.0" r="3.5" fill="#E6EDF3"><title>2026-10-01: 0</title></circle>
+  <circle class="tocka" style="animation-delay:0.57s" cx="259.0" cy="270.0" r="3.5" fill="#E6EDF3"><title>2026-10-02: 0</title></circle>
+  <circle class="tocka" style="animation-delay:0.64s" cx="284.5" cy="264.9" r="3.5" fill="#E6EDF3"><title>2026-10-03: 4</title></circle>
+  <circle class="tocka" style="animation-delay:0.71s" cx="310.0" cy="177.8" r="3.5" fill="#E6EDF3"><title>2026-10-04: 72</title></circle>
+  <circle class="tocka" style="animation-delay:0.78s" cx="335.5" cy="241.8" r="3.5" fill="#E6EDF3"><title>2026-10-05: 22</title></circle>
+  <circle class="tocka" style="animation-delay:0.85s" cx="361.0" cy="267.4" r="3.5" fill="#E6EDF3"><title>2026-10-06: 2</title></circle>
+  <circle class="tocka" style="animation-delay:0.92s" cx="386.5" cy="270.0" r="3.5" fill="#E6EDF3"><title>2026-10-07: 0</title></circle>
+  <circle class="tocka" style="animation-delay:0.99s" cx="412.0" cy="215.0" r="3.5" fill="#E6EDF3"><title>2026-10-08: 43</title></circle>
+  <circle class="tocka" style="animation-delay:1.06s" cx="437.5" cy="261.0" r="3.5" fill="#E6EDF3"><title>2026-10-09: 7</title></circle>
+  <circle class="tocka" style="animation-delay:1.14s" cx="463.0" cy="90.8" r="5.5" fill="#22D3EE"><title>2026-10-10: 140</title></circle>
+  <circle class="tocka" style="animation-delay:1.21s" cx="488.5" cy="168.9" r="3.5" fill="#E6EDF3"><title>2026-10-11: 79</title></circle>
+  <circle class="tocka" style="animation-delay:1.28s" cx="514.0" cy="204.7" r="3.5" fill="#E6EDF3"><title>2026-10-12: 51</title></circle>
+  <circle class="tocka" style="animation-delay:1.35s" cx="539.5" cy="227.8" r="3.5" fill="#E6EDF3"><title>2026-10-13: 33</title></circle>
+  <circle class="tocka" style="animation-delay:1.42s" cx="565.0" cy="241.8" r="3.5" fill="#E6EDF3"><title>2026-10-14: 22</title></circle>
+  <circle class="tocka" style="animation-delay:1.49s" cx="590.5" cy="203.4" r="3.5" fill="#E6EDF3"><title>2026-10-15: 52</title></circle>
+  <circle class="tocka" style="animation-delay:1.56s" cx="616.0" cy="194.5" r="3.5" fill="#E6EDF3"><title>2026-10-16: 59</title></circle>
+  <circle class="tocka" style="animation-delay:1.63s" cx="641.5" cy="222.6" r="3.5" fill="#E6EDF3"><title>2026-10-17: 37</title></circle>
+  <circle class="tocka" style="animation-delay:1.70s" cx="667.0" cy="207.3" r="3.5" fill="#E6EDF3"><title>2026-10-18: 49</title></circle>
+  <circle class="tocka" style="animation-delay:1.77s" cx="692.5" cy="206.0" r="3.5" fill="#E6EDF3"><title>2026-10-19: 50</title></circle>
+  <circle class="tocka" style="animation-delay:1.85s" cx="718.0" cy="268.7" r="3.5" fill="#E6EDF3"><title>2026-10-20: 1</title></circle>
+  <circle class="tocka" style="animation-delay:1.92s" cx="743.5" cy="270.0" r="3.5" fill="#E6EDF3"><title>2026-10-21: 0</title></circle>
+  <circle class="tocka" style="animation-delay:1.99s" cx="769.0" cy="268.7" r="3.5" fill="#E6EDF3"><title>2026-10-22: 1</title></circle>
+  <circle class="tocka" style="animation-delay:2.06s" cx="794.5" cy="263.6" r="3.5" fill="#E6EDF3"><title>2026-10-23: 5</title></circle>
+  <circle class="tocka" style="animation-delay:2.13s" cx="820.0" cy="261.0" r="3.5" fill="#E6EDF3"><title>2026-10-24: 7</title></circle>
+  <circle class="danas" cx="820.0" cy="261.0" r="4" fill="none" stroke="#22D3EE" stroke-width="2"/>
+  <g class="vrh">
+    <text x="463.0" y="76.8" font-size="13" font-weight="700" fill="#E6EDF3" text-anchor="middle">🔥 140</text>
+  </g>
+</svg>
